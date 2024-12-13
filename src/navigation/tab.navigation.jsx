@@ -12,8 +12,7 @@ export const TabNavigation = () => {
 				component={ShoppingNavigation}
 				options={{
 					tabBarIcon: () => (
-            <Feather name="shopping-bag" size={24} color="black" />
-
+            			<Feather name="shopping-bag" size={24} color="black" />
 					),
 				}}
 			/>

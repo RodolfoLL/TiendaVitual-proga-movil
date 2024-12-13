@@ -26,6 +26,14 @@ export const CustomNavigationBarProducts = ({ navigation, options, back }) => {
               navigate('Carrito');
             }}
           />
+          <Appbar.Action
+            icon={() => (
+              <Feather name='shopping-cart' size={24} color='red' />
+            )}
+            onPress={() => {
+              navigate('Mapa');
+            }}
+          />
           {totalItemsInCart > 0 ? (
             <Badge style={styles.badge}>{totalItemsInCart}</Badge>
           ) : null}

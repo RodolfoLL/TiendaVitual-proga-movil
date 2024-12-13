@@ -40,6 +40,8 @@ export const styles = StyleSheet.create({
 		fontWeight: 'black',
 	},
 	iconWithBadge: {
+		display: "flex",
+		flexDirection: "row",
 		position: 'relative',
 	},
 	badge: {
